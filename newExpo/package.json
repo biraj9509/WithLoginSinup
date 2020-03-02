@@ -1,0 +1,36 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.2",
+    "@types/googlemaps": "^3.38.0",
+    "core-js": "^3.4.0",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "expo": "^35.0.1",
+    "fb-watchman": "^2.0.0",
+    "python": "0.0.4",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-google-maps": "^9.4.5",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react-native-maps": "~0.25.0",
+    "react-native-scripts": "^2.0.1",
+    "react-native-web": "^0.11.7",
+    "react-native-web-maps": "^0.2.0",
+    "typescript": "^3.7.2",
+    "update": "^0.7.4",
+    "watchman": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "babel-preset-expo": "^7.1.0"
+  },
+  "private": true
+}

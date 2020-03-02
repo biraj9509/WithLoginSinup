@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "newExpo",
+    "slug": "newExpo",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+
+    "ios": {
+      "bundleIdentifier": "com.biraj.map",
+      "supportsTablet": true
+    },
+
+    "android": {
+      "package": "com.biraj.map",
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyCk7S27_2r13ofX0tvg7mACoR_vN0H8Fic" }   
+     }
+    },
+
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+    
+  }
+}
